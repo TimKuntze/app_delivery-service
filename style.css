@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Italianno', cursive;
+    z-index: 3;
+    color: white;
+}
+
+.intro-header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    background-image: url("img/pizza-bg.jpg");
+    background-position: bottom;
+    background-size: cover;
+}
+
+.green {
+    background: rgb(0, 147, 69, 0.8);
+    color: white;
+    width: 15em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.green:hover {
+    background: rgb(0, 147, 69);
+}
+
+.red {
+    background: rgb(206, 43, 54, 0.8);
+    color: white;
+    width: 15em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.red:hover {
+    background: rgb(206, 43, 54);
+}
+
+.white {
+    background: rgb(255, 255, 255, 0.8);
+    color: black;
+    width: 15em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.white:hover {
+    background: rgb(255, 255, 255);
+}
+
+.logo {
+    width: 200px;
+    margin-bottom: 2em;
+}
+
+.menue {
+    width: 100%;
+    height: 2.2em;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3em;
+    padding-right: 3em;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1.3em;
+}
+
+.list {
+    width: 70%;
+}
+
+.item-class {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(199, 199, 199);
+    text-align: start;
+    padding: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.name {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.description {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-family: 'Italianno', cursive;
+}
+
+.bulletpoints {
+    font-size: 20px;
+    margin-top: 7;
+    margin-bottom: 7;
+}
+
+.price {
+    margin-top: 7;
+    margin-bottom: 7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.add-icon {
+    width: 30px;
+    height: 30px;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-line: none;
+    color: black;
+}
+
+.items-and-basket {
+    display: flex;
+    margin-top: 0;
+}
+
+.basket-class {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.basket {
+    font-size: 25px;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line {
+    border: 1px solid rgb(199, 199, 199);
+    align-self: center;
+    width: 80%;
+}
+
+.min-order-value {
+    text-align: left;
+    font-style: italic;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.basket-img {
+    width: 20px;
+    margin-bottom: 0.5em;
+}
+
+.total-cont {
+    text-align: start;
+    margin-left: 50px;
+}
+
+.order-btn {
+    border: none;
+    width: 80%;
+    height: 50px;
+    font-size: 20px;
+    align-self: center;
+}
+
+.green-btn {
+    border: none;
+    width: 80%;
+    height: 50px;
+    font-size: 20px;
+    background: rgb(0, 147, 69);
+    color: white;
+    cursor: pointer;
+}
+
+.meals {
+    margin-left: 50px;
+}
+
+.sum,
+.total {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sum-total {
+    margin-right: 35px;
+    font-weight: bold;
+}
+
+.shopping-basket {
+    width: 30%;
+}
+
+.para {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.delete-icon {
+    width: 20px;
+    height: 20px;
+    align-self: center;
+    cursor: pointer;
+}
